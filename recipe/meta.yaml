@@ -1,5 +1,5 @@
 {% set name = "smo" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/smo-{{ version }}.tar.gz
-  sha256: 4d3f809a3e0ae08ec7fe720e0c246b1d2fea723ebfa8a2631fb67465be8d0b49
+  sha256: e6bd078874f7401d76c31d8ced0721b67cddae2658bba1ad22c0bf4baad94aed
 
 build:
   noarch: python
